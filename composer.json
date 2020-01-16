@@ -1,0 +1,27 @@
+{
+  "name": "andred23/phptips011",
+  "description": "Logs, alertas e monitoramento com monolog",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "André Dorneles",
+      "email": "andre@imperiosoft.com.br",
+      "role": "Developer",
+      "homepage": "https://imperiosoft.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "monolog/monolog": "2.0.*"
+  }
+}
